@@ -19,6 +19,10 @@
 		6ED9AD951921AF8E002018EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ED9AD7D1921AF8E002018EF /* UIKit.framework */; };
 		6ED9AD9D1921AF8E002018EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6ED9AD9B1921AF8E002018EF /* InfoPlist.strings */; };
 		6ED9AD9F1921AF8E002018EF /* TestNavigationControllerPushTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9AD9E1921AF8E002018EF /* TestNavigationControllerPushTests.m */; };
+		6ED9ADAA1921AFBA002018EF /* SXFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9ADA91921AFBA002018EF /* SXFirstViewController.m */; };
+		6ED9ADAD1921AFC7002018EF /* SXSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9ADAC1921AFC7002018EF /* SXSecondViewController.m */; };
+		6ED9ADB01921AFD6002018EF /* SXThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9ADAF1921AFD6002018EF /* SXThirdViewController.m */; };
+		6ED9ADB61921EB56002018EF /* Animator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED9ADB51921EB56002018EF /* Animator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		6ED9AD9A1921AF8E002018EF /* TestNavigationControllerPushTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestNavigationControllerPushTests-Info.plist"; sourceTree = "<group>"; };
 		6ED9AD9C1921AF8E002018EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6ED9AD9E1921AF8E002018EF /* TestNavigationControllerPushTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestNavigationControllerPushTests.m; sourceTree = "<group>"; };
+		6ED9ADA81921AFBA002018EF /* SXFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXFirstViewController.h; sourceTree = "<group>"; };
+		6ED9ADA91921AFBA002018EF /* SXFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXFirstViewController.m; sourceTree = "<group>"; };
+		6ED9ADAB1921AFC7002018EF /* SXSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXSecondViewController.h; sourceTree = "<group>"; };
+		6ED9ADAC1921AFC7002018EF /* SXSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXSecondViewController.m; sourceTree = "<group>"; };
+		6ED9ADAE1921AFD6002018EF /* SXThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SXThirdViewController.h; sourceTree = "<group>"; };
+		6ED9ADAF1921AFD6002018EF /* SXThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SXThirdViewController.m; sourceTree = "<group>"; };
+		6ED9ADB41921EB56002018EF /* Animator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animator.h; sourceTree = "<group>"; };
+		6ED9ADB51921EB56002018EF /* Animator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,14 @@
 			children = (
 				6ED9AD881921AF8E002018EF /* SXAppDelegate.h */,
 				6ED9AD891921AF8E002018EF /* SXAppDelegate.m */,
+				6ED9ADA81921AFBA002018EF /* SXFirstViewController.h */,
+				6ED9ADA91921AFBA002018EF /* SXFirstViewController.m */,
+				6ED9ADAB1921AFC7002018EF /* SXSecondViewController.h */,
+				6ED9ADAC1921AFC7002018EF /* SXSecondViewController.m */,
+				6ED9ADAE1921AFD6002018EF /* SXThirdViewController.h */,
+				6ED9ADAF1921AFD6002018EF /* SXThirdViewController.m */,
+				6ED9ADB41921EB56002018EF /* Animator.h */,
+				6ED9ADB51921EB56002018EF /* Animator.m */,
 				6ED9AD8B1921AF8E002018EF /* Images.xcassets */,
 				6ED9AD801921AF8E002018EF /* Supporting Files */,
 			);
@@ -241,7 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6ED9AD861921AF8E002018EF /* main.m in Sources */,
+				6ED9ADB01921AFD6002018EF /* SXThirdViewController.m in Sources */,
+				6ED9ADB61921EB56002018EF /* Animator.m in Sources */,
+				6ED9ADAD1921AFC7002018EF /* SXSecondViewController.m in Sources */,
 				6ED9AD8A1921AF8E002018EF /* SXAppDelegate.m in Sources */,
+				6ED9ADAA1921AFBA002018EF /* SXFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +462,7 @@
 				6ED9ADA41921AF8E002018EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6ED9ADA51921AF8E002018EF /* Build configuration list for PBXNativeTarget "TestNavigationControllerPushTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +471,7 @@
 				6ED9ADA71921AF8E002018EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
